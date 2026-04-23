@@ -876,7 +876,7 @@ class Test_A{
     }
     
 }
-class Test_B extends TestA{
+class Test_B extends Test_A{
     void funB(){
         System.out.println("IN CLASS B");
     }
@@ -889,10 +889,11 @@ class Test_C extends Test_A{
     }
 }
 ```
-<img width="224" height="95" alt="image" src="https://github.com/user-attachments/assets/f4c71b18-3062-457e-bd0c-db84d9026d29" />
+<img width="231" height="100" alt="image" src="https://github.com/user-attachments/assets/ca276acf-8f25-467c-921d-e6fe04909e00" />
 
 
-/
+## 
+
 
 
 
