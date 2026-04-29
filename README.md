@@ -119,6 +119,8 @@ Write a Java program to demonstrate TreeMap by inserting elements, displaying th
 [Program-25
 Write a Java program to implement a Stack using arrays and perform operations such as push, pop, displaying elements, and handling stack overflow and underflow conditions](#assi-25)
 
+[Program-26 Implement File transfer/copy in Java using: 1.Byte Stream 2.Character Stream ] (#assi-26)
+
 
 ## assi-1
 ```
@@ -1654,6 +1656,61 @@ public class ArrayStackDemo {
 }
 ```
 <img width="247" height="155" alt="image" src="https://github.com/user-attachments/assets/34a7923c-0999-46cf-9a3e-14b586903819" />
+
+## assi-26
+```
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author kavya
+ */
+import java.io.*;
+
+public class File1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Example source and destination files
+        String source = "source.txt";
+        String destByte = "copy_byte.txt";
+        String destChar = "copy_char.txt";
+
+        // 1. Copy using Byte Stream
+        try (FileInputStream fis = new FileInputStream(source);
+             FileOutputStream fos = new FileOutputStream(destByte)) {
+
+            int b;
+            while ((b = fis.read()) != -1) {
+                fos.write(b);
+            }
+            System.out.println("File copied successfully using Byte Stream!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 2. Copy using Character Stream
+        try (FileReader fr = new FileReader(source);
+             FileWriter fw = new FileWriter(destChar)) {
+
+            int c;
+            while ((c = fr.read()) != -1) {
+                fw.write(c);
+            }
+            System.out.println("File copied successfully using Character Stream!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+<img width="445" height="196" alt="image" src="https://github.com/user-attachments/assets/2a260794-06b8-4a9f-9ead-4737368ef293" />
 
 
 
