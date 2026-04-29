@@ -121,6 +121,8 @@ Write a Java program to implement a Stack using arrays and perform operations su
 
 [Program-26 Implement File transfer/copy in Java using: 1.Byte Stream 2.Character Stream ](#assi-26)
 
+[Program-27 Create a package pkg1 containing a class PkgTest with a method fun() that prints a message and creates an object of the same class. Then, write a separate class PkgMain (outside the package) to import pkg1.PkgTest and call the fun() method.](#assi-27)
+
 
 ## assi-1
 ```
@@ -1712,6 +1714,13 @@ public class File1 {
 }
 ```
 <img width="445" height="196" alt="image" src="https://github.com/user-attachments/assets/2a260794-06b8-4a9f-9ead-4737368ef293" />
+
+## assi-27
+<img width="324" height="188" alt="image" src="https://github.com/user-attachments/assets/6be6ac08-7d6d-4c6b-9666-e5f0e24f2bba" />
+<img width="554" height="121" alt="image" src="https://github.com/user-attachments/assets/324d35bb-4724-4b55-bb7f-9a8b2bd7e009" />
+<img width="160" height="42" alt="image" src="https://github.com/user-attachments/assets/505cb4b8-7ba1-4786-bc85-4cd4dced87ab" />
+
+
 
 
 
