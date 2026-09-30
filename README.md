@@ -1,5 +1,4 @@
-# CS-23.202
-Java Lab Programs 4th Semester 2026
+# Java OOP Lab Programs 
 
 [Program-1 Write a class with four methods add, subtract, multiply and divide and test all the methods in the main](#assi-1)
 
